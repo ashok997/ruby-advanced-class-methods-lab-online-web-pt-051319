@@ -39,6 +39,7 @@ class Song
   end
   
   def self.new_from_filename(filename)
+<<<<<<< HEAD
     song_array =filename.split("-")
     song_name =song_array[1].split(".")
     song =self.new
@@ -60,6 +61,9 @@ class Song
   
   def self.destroy_all
     @@all.clear
+=======
+
+>>>>>>> 2f4151084c528a3def59017feaa58bf202fd5871
   end
   
   def save
